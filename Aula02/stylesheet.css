@@ -1,0 +1,114 @@
+header a{
+    font-family: Mulish, 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F1534;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.logo {
+   font-family: Mulish, 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #89C5CC;
+   text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+}
+
+main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+main h1{
+    font-family: Mulish, 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    color: #000000;
+    text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+}
+
+.exclusivos {
+    font-family: Mulish, 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 49px;
+    color: #89C5CC;
+    text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+}
+
+main p{
+    font-family: 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#7D7987;
+    text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+}
+
+.unicos, .performance {
+    font-family: 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color:#7D7987;
+    text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+}
+
+img .imagem {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    width: fit-content;
+    color: #69B99D;
+
+}
+
+.botao p {
+    font-family: DM Sans, 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: #F9F9F9;
+}
+
+.botao img {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
+
+footer {
+    font-family: 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+footer .instagram {
+    font: 'Open Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}

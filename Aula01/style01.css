@@ -1,0 +1,95 @@
+body {
+    background-color: #ffffff;
+    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    text-align: center;
+    max-width: 600px;
+    margin:0 auto;
+    
+}
+    
+
+.hero h1 {
+    color:#000000;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-shadow: -1px 2px 4px rgba(1, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.hero p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #7D7987;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0;
+    max-width: 600px;
+    margin: 10px auto;
+    margin-top: 35px;
+
+}
+
+.hero img {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.espaço, .historia {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 56px;
+    text-align: center;
+    color: #0075FF;
+    margin: 20px auto;
+}
+
+.exclusivos, .unicos, .elegancia, .finesse {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.destaque, .ambientes {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #0075FF;
+}
+
+
+
+footer {
+    font-family: 'Open Sans',Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 600px;
+    height: 36px;
+    position: absolute;
+    border: 1px;
+    color: #0075FF;
+    cursor: pointer;
+    margin: 50px auto 0;
+    padding: 10px 20px;
+    border-top: 1.5px solid #ECEFF2;
+}
