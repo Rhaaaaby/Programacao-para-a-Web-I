@@ -1,0 +1,10 @@
+# Ignora banco SQLite
+*.db
+
+# Ignora pasta instance criada automaticamente pelo Flask
+instance/
+
+# Ignora arquivos de configuração local
+.env
+__pycache__/
+*.pyc
