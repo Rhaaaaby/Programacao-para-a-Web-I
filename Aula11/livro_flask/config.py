@@ -4,9 +4,9 @@ import random, string
 class Config(object):
     CSRF_ENABLED = True
     SECRET = 'ce22c680-eb91-4f50-aaa1-b648471837a6'
-    TEMPLATE_FOLDER = os.path.join(os.pathdirname(os.path.abspath(__file__)), 'templates')
+    TEMPLATE_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
     APP = None
-    SQALCHEMY_DATABASE_URI = 'mysql+mysqldb://root:admin@localhost:3306/livro_flask'
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqldb://root:admin@localhost:3306/livro_flask'
 
 
     class DevelopmentConfig(Config):
@@ -14,7 +14,7 @@ class Config(object):
         DEBUG = True
         IP_HOST = 'localhost'
         PORT_HOST = 8000
-        URL_MAIN = 'http://%s:%s/' (IP_HOST, PORT_HOST)
+        URL_MAIN = 'http://%s:%s/' % (IP_HOST, PORT_HOST)
 
     class TestingConfig(Config):
         TESTING = True 

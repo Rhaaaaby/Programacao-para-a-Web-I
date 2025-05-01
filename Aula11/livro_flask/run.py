@@ -1,6 +1,6 @@
 import sys
 from app import create_app
-from config import app_conifg, app_active
+from config import app_config, app_active
 
 config = app_config[app_active]
 config.APP = create_app[app_active]
